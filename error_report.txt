@@ -1,0 +1,21 @@
+ERROR REPORT
+Generated: 2025-12-11 18:21:06
+Total Records Processed: 7
+Valid Records: 2
+Invalid Records: 5
+
+INVALID RECORDS:
+Patient ID: P003
+- Health card number must be exactly 10 digits
+
+Patient ID: P004
+- Service date is in the future
+
+Patient ID: P005
+- Version code must be uppercase letters (A-Z)
+
+Patient ID: P006
+- Health card number failed MOD 10 (Luhn) validation
+
+Patient ID: P007
+- Service date is before date of birth
